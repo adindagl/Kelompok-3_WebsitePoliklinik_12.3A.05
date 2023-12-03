@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Pembayaran extends CI_Model {
 
 	function get_pembayaran(){
+		//*//
 		$result=$this->db->query("SELECT * FROM pembayaran ");
         return $result;
 	}
