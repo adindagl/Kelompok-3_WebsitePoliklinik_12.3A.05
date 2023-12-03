@@ -1,0 +1,10 @@
+ul.pagination .page-item.active a{
+  background: #7ca4c9;
+  color:white;
+  border:1px solid #7ca4c9;
+}
+
+ul.pagination .page-item a{
+  color:#7ca4c9;
+  
+}

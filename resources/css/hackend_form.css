@@ -1,0 +1,14 @@
+select option:checked,
+select option:hover {
+  /**/
+    box-shadow: 0 0 10px 100px #30a5b6 inset;
+    background: #30a5b6;
+    color:white;
+}
+@media print {
+ 
+  #printableTable {  	
+    display: block;
+  }
+
+}
