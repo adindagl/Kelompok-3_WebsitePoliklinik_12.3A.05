@@ -4,7 +4,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-success">Pengaturan</h1>
+            <h1 class="h3 mb-0 text-primary">Pengaturan</h1>
           </div>
          
           <!-- DataTales Example -->
@@ -25,7 +25,7 @@
                 <input type="hidden" name="session_set" value="<?php echo $this->session->userdata('tipe_login');  ?>">
                 Password Baru<input type="password" name="password" class="form-control mr-2 d-none d-sm-inline-block">
                 Verifikasi Password Baru<input type="password" name="password_ver" class="form-control mr-2 d-none d-sm-inline-block">
-                <button type="submit" class="mt-2 d-none d-sm-inline-block btn btn-md btn-success shadow-sm">Submit</button>
+                <button type="submit" class="mt-2 d-none d-sm-inline-block btn btn-md btn-primary shadow-sm">Submit</button>
               </form>
             </div>
           </div>
