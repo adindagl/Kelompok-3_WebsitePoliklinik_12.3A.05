@@ -9,7 +9,7 @@
 
          
           
-          <!---->
+        
           <!-- DataTales Example -->
           <form method="post" action="<?php echo base_url() ?>web/data-tindakan/perbarui">
           <div class="row">

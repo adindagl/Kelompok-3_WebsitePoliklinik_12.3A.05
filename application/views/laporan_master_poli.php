@@ -4,7 +4,7 @@
 
           
           
-          <!---->
+          
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">

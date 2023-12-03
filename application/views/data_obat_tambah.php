@@ -6,7 +6,7 @@
         $kode_obat = $char . sprintf("%04s", $noUrut);
 
      ?>
-        <!---->
+        
         <!-- Begin Page Content -->
         <div class="container-fluid">
 

@@ -1,7 +1,7 @@
       </div>
       <!-- End of Main Content -->
 
-<!-- -->
+
 <!-- Footer -->
       <footer class="sticky-footer text-dark">
         <div class="container my-auto">

@@ -15,7 +15,7 @@
           <th>Keterangan</th>          
         </tr>
       </thead>
-      <tbody //>
+      <tbody >
         <?php $no=1; ?>
         <?php foreach ($res->result() as $res): ?>
         <tr>

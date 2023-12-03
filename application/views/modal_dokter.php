@@ -6,7 +6,7 @@
   <title>Modal Dokter</title>
     <link href="<?php echo base_url() ?>resources/css/sb-admin-2.min.css" rel="stylesheet">
     
-  <!---->
+  
   <!-- Custom styles for this page -->
   <link href="<?php echo base_url() ?>vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 </head>

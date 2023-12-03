@@ -1,7 +1,7 @@
 <!-- Begin Page Content -->
         <div class="container-fluid">
 
- <?php      //     
+ <?php          
                         if($message=$this->session->flashdata('message')):
                     ?>
                         <div class="animated bounceInDown sufee-alert alert with-close btn-info alert-dismissible fade show">

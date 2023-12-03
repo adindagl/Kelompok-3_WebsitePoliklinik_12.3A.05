@@ -1,5 +1,5 @@
 <?php $res=$res->row_array() ?>
-         <!---->
+         
         <!-- Begin Page Content -->
         <div class="container-fluid">
 

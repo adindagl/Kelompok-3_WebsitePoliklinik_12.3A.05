@@ -16,7 +16,7 @@
         <th>Subtotal</th>
       </tr>
     </thead>
-    <tbody //>
+    <tbody>
       <?php $no=1; $total=0;?>
       <?php foreach ($res->result() as $res): ?>
       <tr>

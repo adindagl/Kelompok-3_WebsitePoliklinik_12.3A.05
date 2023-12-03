@@ -10,7 +10,7 @@
 
          
           
-          <!---->
+          
           <!-- DataTales Example -->
           <form method="post" action="<?php echo base_url() ?>web/data-pasien/perbarui">
           <div class="row">

@@ -6,7 +6,7 @@
         $kode_dokter = $char . sprintf("%04s", $noUrut);
 
      ?>
-         <!---->
+
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
