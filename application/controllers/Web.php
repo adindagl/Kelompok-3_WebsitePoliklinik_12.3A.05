@@ -249,7 +249,7 @@ class Web extends CI_Controller {
 		}elseif ($section=="hapus") {
 			$result=$this->Tindakan->delete_tindakan($id);
 			if($result){
-				$this->session->set_flashdata('message', 'Tindakan Berhasil dihapus');
+				$this->session->set_flashdata('message', 'Tindakan Berhasil Dihapus');
 				redirect('web/data-tindakan');
 			}
 		}
@@ -317,7 +317,7 @@ class Web extends CI_Controller {
 			
 		}elseif($section=="hapus"){
 			$result=$this->Dokter->delete_dokter($id);
-				$this->session->set_flashdata('message', 'Dokter Berhasil dihapus');
+				$this->session->set_flashdata('message', 'Dokter Berhasil Dihapus');
 					redirect('web/data-dokter');
 		
 		}elseif($section=="detail"){
@@ -391,7 +391,7 @@ class Web extends CI_Controller {
 		}elseif ($section=="hapus") {
 			$result=$this->Obat->delete_obat($id);
 			if($result){
-				$this->session->set_flashdata('message', 'Obat Berhasil dihapus');
+				$this->session->set_flashdata('message', 'Obat Berhasil Dihapus');
 				redirect('web/data-obat');
 			}
 		}
