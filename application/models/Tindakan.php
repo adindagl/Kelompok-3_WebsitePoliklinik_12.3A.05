@@ -20,14 +20,17 @@ class Tindakan extends CI_Model {
 	        return $result;
     }
 	function set_tindakan($kode_tindakan="",$nama_tindakan="",$tarif=""){
+		//menambah tindakan
 		$result=$this->db->query("INSERT INTO tindakan VALUES('$kode_tindakan','$nama_tindakan','$tarif')");
         return $result;
 	}
 	function update_tindakan($kode_tindakan="",$nama_tindakan="",$tarif=""){
+		//mengupdate tindakan
 		$result=$this->db->query("UPDATE tindakan SET nama_tindakan='$nama_tindakan',tarif='$tarif' WHERE kode_tindakan='$kode_tindakan'");
         return $result;
 	}
 	function delete_tindakan($id=""){
+		//menghapus tindakan
 		$result=$this->db->query("DELETE FROM tindakan WHERE kode_tindakan='$id'");
         return $result;
 	}
