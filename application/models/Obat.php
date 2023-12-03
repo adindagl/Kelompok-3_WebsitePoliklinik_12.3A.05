@@ -30,5 +30,7 @@ class Obat extends CI_Model {
 
 }
 
+
+
 /* End of file Obat.php */
 /* Location: ./application/models/Obat.php */
