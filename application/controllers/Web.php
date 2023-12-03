@@ -749,11 +749,7 @@ class Web extends CI_Controller {
 					redirect('web/transaksi_pembayaran/bukti/'.$no_daftar);
 			}
 
-			// if($result){
-			// 	$this->Pendaftaran->update_status("selesai",$no_daftar);
-			// 	$this->session->set_flashdata('message', 'Pembayaran Berhasil');
-			// 	redirect('web/transaksi_pembayaran/bukti/'.$no_daftar);
-			// }
+			
 
 		}elseif($section=="bukti"){
 			$data=array(
