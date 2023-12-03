@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Tindakan extends CI_Model {
-//
+
 	function get_tindakan(){
 		$result=$this->db->query("SELECT * FROM tindakan");
         return $result;

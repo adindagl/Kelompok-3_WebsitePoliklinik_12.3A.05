@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Obat extends CI_Model {
-//
+
 	function get_obat(){
 		$result=$this->db->query("SELECT * FROM obat");
         return $result;

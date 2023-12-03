@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Rekamedis extends CI_Model {
-	//
+	
 	function get_periksa(){
 		$result=$this->db->query("SELECT * FROM rekamedis");
         return $result;

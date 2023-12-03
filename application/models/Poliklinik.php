@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Poliklinik extends CI_Model {
-//
+
 	function get_poli(){
 		$result=$this->db->query("SELECT * FROM poliklinik");
         return $result;

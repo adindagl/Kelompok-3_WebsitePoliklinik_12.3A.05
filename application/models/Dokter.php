@@ -1,7 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
-class Dokter extends CI_Model { //
+class Dokter extends CI_Model { 
 	function get_dokter(){
 		$result=$this->db->query("SELECT * FROM dokter");
         return $result;

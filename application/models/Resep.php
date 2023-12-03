@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Resep extends CI_Model {
-//
+
 	function get_resep_detail($id=""){
 		$result=$this->db->query("SELECT * FROM resep INNER JOIN obat ON obat.kode_obat=resep.kode_obat WHERE no_daftar='$id'");
         return $result;

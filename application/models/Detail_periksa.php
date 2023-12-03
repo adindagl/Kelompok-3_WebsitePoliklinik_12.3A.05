@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Detail_periksa extends CI_Model {
-//
+
 	function get_periksa_detail($id=""){
 		$result=$this->db->query("SELECT * FROM detail_pemeriksaan INNER JOIN tindakan ON tindakan.kode_tindakan=detail_pemeriksaan.kode_tindakan WHERE detail_pemeriksaan.no_daftar='$id'");
         return $result;

@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Pasien extends CI_Model {
-//
+
 	function get_pasien(){
 		$result=$this->db->query("SELECT * FROM pasien");
         return $result;

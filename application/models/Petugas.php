@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Petugas extends CI_Model {
-//
+
 	function get_petugas(){
 		$result=$this->db->query("SELECT * FROM petugas");
         return $result;
