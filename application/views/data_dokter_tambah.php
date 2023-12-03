@@ -149,7 +149,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Pilih "Yes" untuk membatalkan.</div>
+        <div class="modal-body">Pilih "Yes" Untuk Membatalkan.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
           <a class="btn btn-warning" href="<?php echo base_url() ?>web/data-dokter">Yes</a>
